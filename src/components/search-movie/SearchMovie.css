@@ -1,0 +1,6 @@
+.search-box {
+    padding: 20px;
+    margin-bottom: 30px;
+    background-color: #fcfaf5;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.08), 0 8px 24px rgba(0, 0, 0, 0.08);
+}

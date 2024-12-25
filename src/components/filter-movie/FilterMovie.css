@@ -1,0 +1,8 @@
+
+@media screen and (max-width: 768px) {
+    .btn-group {
+        width: 100%;
+        flex-direction: column;
+        gap: 10px;
+    }
+}
