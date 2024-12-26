@@ -14,4 +14,8 @@
     .add-form {
         flex-direction: column;
     }
+
+    .movies-add-form {
+        margin-bottom: 24px;
+    }
 }

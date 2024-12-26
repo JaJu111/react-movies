@@ -1,6 +1,8 @@
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 
+const basePath = process.env.NODE_ENV === 'production' ? '/react-movies/' : '/';
+
 export default defineConfig({
   plugins: [react()],
   esbuild: {
@@ -9,5 +11,5 @@ export default defineConfig({
   server: {
     port: 3000, // Укажите нужный порт
   },
-  base: '/react-movies/', // Укажите имя репозитория
+  base: basePath, // Укажите имя репозитория
 });

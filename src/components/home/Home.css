@@ -1,3 +1,9 @@
 .home-box {
     padding-top: 60px;
 }
+
+@media screen and (max-width: 768px) {
+    .home-box {
+        padding-top: 24px;
+    }
+}
