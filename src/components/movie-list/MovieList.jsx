@@ -7,7 +7,7 @@ export default function MovieList({ movies }) {
             <ul className="movie-list">
                 {
                     movies.map(item => (
-                        <MovieListItem key={item.id} item={item} /> // 2:13:53 ga keldim
+                        <MovieListItem key={item.id} item={item} /> // 2:56:00 ga keldim
                     ))
                 }
             </ul>

@@ -2,11 +2,17 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    cursor: pointer;
+    user-select: none;
 }
 
 .list-group-item.favorite span, 
 .list-group-item.favorite .btn-box input {
     color: orange;
+}
+
+.list-group-item.like .btn-star {
+    color: #e5e50b;
 }
 
 .list-group-item span {
@@ -29,7 +35,8 @@
     gap: 16px;
 }
 
-.btn-box button {
+.btn-box button.btn-cookie,
+.btn-box button.btn-trash {
     border: none;
     outline: none;
     cursor: pointer;
@@ -44,7 +51,14 @@
 }
 
 .btn-star {
-    color: #e5e50b;
+    border: none;
+    outline: none;
+    color: #fff;
+    background-color: #fff;
+}
+
+.btn-star:focus {
+    outline: none;
 }
 
 
